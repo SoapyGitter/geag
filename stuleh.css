@@ -1,0 +1,82 @@
+div.frame {
+    width: auto;
+    box-shadow: 20px 21px 3px #4d4d4d;
+    background-color: #accad1;
+    border-radius: 70px;
+    padding: 20px;
+    gap: 24px;
+    display: flex;
+
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input {
+    border-radius: 24px;
+}
+
+select {
+    border-radius: 24px;
+}
+
+.status {
+    border-radius: 24px;
+    width: 70px;
+    height: 30px;
+    color: blue;
+}
+
+button {
+    border-radius: 24px;
+}
+
+div.list {
+    width: 83%;
+    margin: auto;
+    box-shadow: 20px 21px 3px #4d4d4d78;
+    background-color: #d8d9d98c;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 24px;
+
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+
+}
+
+select:has(option[value="closed"]:checked) {
+    color: green;
+}
+
+div.list>.item {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 0.6fr;
+    align-items: center;
+}
+
+.delete-button-container {
+    position: relative;
+}
+
+.button2 {
+    border: none;
+    background: transparent;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+}
+
+.open {
+    color: blue;
+}
+
+.closed {
+    color: green;
+}
